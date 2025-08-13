@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leche Viva - Leche fresca de La Araucanía</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css"> 
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="www.lecheviva.cl" style="background-color: transparent;"><img src="images/logo.png" alt="Leche Viva Logo"></a>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li style="background-color: transparent;"><a href="#leche-viva">Leche Viva</a></li>
+            <li style="background-color: transparent;"><a href="#nuestra-diferencia">¿Por qué Leche Viva?</a></li>
+            <li style="background-color: transparent;"><a href="#contactanos">Contáctanos</a></li>
+        </ul>
+        <div class="mobile-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-btn" onclick="openWhatsApp()">
+        <svg viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.525 3.687"/>
+        </svg>
+    </div>
+
+    <!-- Inicio Section - Parte superior de la imagen (mujer alimentando vaca) -->
+    <section id="inicio" class="section">
+        <div class="hero-bottom-content">
+            <div class="hero-logo">
+                <img src="images/logo.png" alt="Leche Viva Logo">
+            </div>
+            <div class="hero-text">
+                <p>Fresca, cercana y con vida. Como antes.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Leche Viva Section - Sección de las vacas -->
+    <section id="leche-viva" class="section">
+        <div class="leche-viva-bottom-content">
+            <!-- <div class="leche-viva-title">
+                <h2>LECHE VIVA</h2>
+                <p>fresca, cercana y con vida, como antes</p>
+            </div> -->
+            
+            <div class="leche-viva-features">
+                <div class="leche-viva-feature">
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m14,17H4v-3h10v3Zm5.111-7.773l-1.633-4.188c-.317-.814-.479-1.67-.479-2.544v-.495c.552,0,1-.447,1-1s-.448-1-1-1H7c-.552,0-1,.447-1,1s.448,1,1,1v.495c0,.874-.161,1.729-.479,2.544l-1.633,4.188c-.351.9-.586,1.829-.729,2.773h9.84c1.103,0,2,.897,2,2v3c0,1.103-.897,2-2,2H4c0,2.757,2.243,5,5,5h6c2.757,0,5-2.243,5-5v-5.051c0-1.622-.299-3.211-.889-4.723Z"/>
+                    </svg>
+                    <h3>Vacas en Libertad</h3>
+                    <p>Alimentadas con pasto y cuidadas con cariño.</p>
+                </div>
+                <div class="leche-viva-feature">
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m14,17H4v-3h10v3Zm5.111-7.773l-1.633-4.188c-.317-.814-.479-1.67-.479-2.544v-.495c.552,0,1-.447,1-1s-.448-1-1-1H7c-.552,0-1,.447-1,1s.448,1,1,1v.495c0,.874-.161,1.729-.479,2.544l-1.633,4.188c-.351.9-.586,1.829-.729,2.773h9.84c1.103,0,2,.897,2,2v3c0,1.103-.897,2-2,2H4c0,2.757,2.243,5,5,5h6c2.757,0,5-2.243,5-5v-5.051c0-1.622-.299-3.211-.889-4.723Z"/>
+                    </svg>
+                    <h3>Fresca y Entera</h3>
+                    <p>Pasteurizada a baja temperatura (63°C por 30 minutos).</p>
+                </div>
+                <div class="leche-viva-feature">
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m14,17H4v-3h10v3Zm5.111-7.773l-1.633-4.188c-.317-.814-.479-1.67-.479-2.544v-.495c.552,0,1-.447,1-1s-.448-1-1-1H7c-.552,0-1,.447-1,1s.448,1,1,1v.495c0,.874-.161,1.729-.479,2.544l-1.633,4.188c-.351.9-.586,1.829-.729,2.773h9.84c1.103,0,2,.897,2,2v3c0,1.103-.897,2-2,2H4c0,2.757,2.243,5,5,5h6c2.757,0,5-2.243,5-5v-5.051c0-1.622-.299-3.211-.889-4.723Z"/>
+                    </svg>
+                    <h3>Sin UHT</h3>
+                    <p>Sabor auténtico, sin ultraprocesar, sin UHT ni procesos industriales agresivos.</p>
+                </div>
+                <div class="leche-viva-feature">
+                    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m14,17H4v-3h10v3Zm5.111-7.773l-1.633-4.188c-.317-.814-.479-1.67-.479-2.544v-.495c.552,0,1-.447,1-1s-.448-1-1-1H7c-.552,0-1,.447-1,1s.448,1,1,1v.495c0,.874-.161,1.729-.479,2.544l-1.633,4.188c-.351.9-.586,1.829-.729,2.773h9.84c1.103,0,2,.897,2,2v3c0,1.103-.897,2-2,2H4c0,2.757,2.243,5,5,5h6c2.757,0,5-2.243,5-5v-5.051c0-1.622-.299-3.211-.889-4.723Z"/>
+                    </svg>
+                    <h3>Vitalidad Natural</h3>
+                    <p>Mantiene enzimas activas y toda su vitalidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestra Diferencia Section - Sección de la vaca con el tarro de leche -->
+    <section id="nuestra-diferencia" class="section">
+        <div class="nuestra-diferencia-bottom-content">
+            <div class="nuestra-diferencia-logo-top">
+                <img src="images/logo.png" alt="Leche Viva Logo">
+            </div>
+            <div class="nuestra-diferencia-comparison">
+                <div class="comparison-item">
+                    <h3>Nuestra Leche Viva</h3>
+                    <!-- <h3>✅ LECHE VIVA</h3> -->
+                    <ul>
+                        <li>Pasteurizada a baja temperatura</li>
+                        <li>Mantiene enzimas activas</li>
+                        <li>Conserva sabor original</li>
+                        <li>Retiene su vitalidad natural</li>
+                        <li>Contiene Probióticos naturales</li>
+                        <li>Dura 5 días refrigerado</li>
+                        <li>Sin ultraprocesos</li>
+                        <li>Simplemente viva</li>
+                    </ul>
+                </div>
+                
+                <div class="comparison-item">
+                    <h3>Otras Leches</h3>
+                    <ul>
+                        <li>Esterilizada a altas temperaturas</li>
+                        <li>Sin enzimas ni microorganismos</li>
+                        <li>Sabor más plano</li>
+                        <li>Vida útil prologada artificialmente</li>
+                        <li>Frecuentemente homogeneizada</li>
+                        <li>Desnatada o estandarizada</li>
+                        <li>Menor sabor y cercanía con el origen</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contactanos Section - Sección inferior -->
+    <section id="contactanos" class="section">
+        <div class="section-content fade-in">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #0E5388;">Leche entera fresca y real de vacas de la Región de La Araucanía</h2>
+            
+            <div class="contact-info">
+                                  <div class="contact-item">
+                     <div class="contact-content">
+                         <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                             <path d="m15.389,11.1c0,.972-1.448,2.784-2.801,3.868-.053.043-.123.042-.176,0-1.353-1.084-2.801-2.896-2.801-3.868,0-.606.424-1.1.944-1.1.436,0,.944.238.944.909,0,.552.447,1,1,1s1-.448,1-1c0-.671.509-.909.944-.909.521,0,.944.494.944,1.1ZM23.999,2.801c-.215,6.847-1.473,11.833-3.737,14.817-1.843,2.428-4.618,3.974-7.615,4.241-.308.028-.614.041-.918.041-2.246,0-4.358-.744-6.072-2.142l-3.949,3.949c-.195.195-.451.293-.707.293s-.512-.098-.707-.293c-.391-.391-.391-1.023,0-1.414l3.949-3.948c-1.406-1.714-2.193-3.829-2.24-6.085-.057-2.735.978-5.307,2.912-7.241,2.417-2.417,5.254-2.604,7.997-2.783,2.422-.159,4.926-.323,7.508-1.925.658-.411,1.475-.414,2.184-.004.866.5,1.427,1.502,1.396,2.495Zm-6.61,8.299c0-1.709-1.321-3.1-2.944-3.1-.759,0-1.433.255-1.944.688-.512-.433-1.186-.688-1.944-.688-1.623,0-2.944,1.391-2.944,3.1,0,2.555,3.405,5.312,3.551,5.429.394.315.866.473,1.338.473s.944-.158,1.338-.473c.146-.116,3.551-2.874,3.551-5.429Z"/>
+                         </svg>
+                         <p style="color: #0E5388; background-color: transparent;" >Esta leche es parte de un sistema de circuito corto agroalimentario que reduce intermedarios, fomenta el comercio justo y fortalece la economía local.</p>
+                     </div>
+                  </div>
+                
+                
+                <div class="contact-item">
+                    <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m15.389,11.1c0,.972-1.448,2.784-2.801,3.868-.053.043-.123.042-.176,0-1.353-1.084-2.801-2.896-2.801-3.868,0-.606.424-1.1.944-1.1.436,0,.944.238.944.909,0,.552.447,1,1,1s1-.448,1-1c0-.671.509-.909.944-.909.521,0,.944.494.944,1.1ZM23.999,2.801c-.215,6.847-1.473,11.833-3.737,14.817-1.843,2.428-4.618,3.974-7.615,4.241-.308.028-.614.041-.918.041-2.246,0-4.358-.744-6.072-2.142l-3.949,3.949c-.195.195-.451.293-.707.293s-.512-.098-.707-.293c-.391-.391-.391-1.023,0-1.414l3.949-3.948c-1.406-1.714-2.193-3.829-2.24-6.085-.057-2.735.978-5.307,2.912-7.241,2.417-2.417,5.254-2.604,7.997-2.783,2.422-.159,4.926-.323,7.508-1.925.658-.411,1.475-.414,2.184-.004.866.5,1.427,1.502,1.396,2.495Zm-6.61,8.299c0-1.709-1.321-3.1-2.944-3.1-.759,0-1.433.255-1.944.688-.512-.433-1.186-.688-1.944-.688-1.623,0-2.944,1.391-2.944,3.1,0,2.555,3.405,5.312,3.551,5.429.394.315.866.473,1.338.473s.944-.158,1.338-.473c.146-.116,3.551-2.874,3.551-5.429Z"/>
+                    </svg>
+                    <p style="color: #0E5388; background-color: transparent;">Botella de vidrio retornable de 1 litro<br>
+                    Refrigerar entre 0°C y 4°C<br>
+                    Consumir dentro de 4 días una vez abierto<br>
+                    Agitar antes de servir</p>
+                </div>
+            </div>
+            
+                         <div class="ofertas-item">
+                 <div class="oferta-content">
+                     <svg class="oferta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                         <path d="M19.627,13.005h-.001c-.148,0-.298-.006-.448-.018-2.023-.172-4.097-.27-6.187-.293v10.205c0,.034-.002,.068-.005,.101,1.842-.042,3.682-.203,5.511-.482,1.071-.164,1.952-.97,2.243-2.054,.519-1.935,.72-5.116,.595-7.735-.538,.181-1.114,.276-1.709,.276Z"/>
+                         <path d="M11.008,12.694c-2.089,.024-4.161,.123-6.175,.296-.158,.013-.314,.02-.469,.02-.591,0-1.164-.094-1.7-.275-.125,2.617,.077,5.795,.595,7.729,.291,1.083,1.172,1.89,2.243,2.054,1.829,.28,3.669,.44,5.511,.482-.003-.033-.005-.067-.005-.101V12.694Z"/>
+                         <path d="M22.404,8.073h0s-.079-.276-.079-.276c-.283-.939-1.238-1.655-2.379-1.782-.054-.006-.109-.012-.164-.018,.009-.116,.013-.232,.013-.349,0-2.562-2.085-4.647-4.647-4.647-1.213,0-2.319,.467-3.147,1.231-.828-.764-1.934-1.231-3.147-1.231-2.562,0-4.647,2.085-4.647,4.647,0,.118,.005,.236,.013,.353-.056,.006-.111,.012-.167,.018-1.141,.128-2.096,.845-2.377,1.783l-.079,.275c-.21,.762,.03,1.567,.641,2.153,.549,.527,1.312,.817,2.127,.817,.098,0,.197-.004,.296-.013,2.079-.178,4.21-.279,6.348-.303V5.611h1.983v5.12c2.138,.023,4.27,.123,6.349,.3,.924,.074,1.808-.214,2.424-.805,.61-.586,.849-1.391,.639-2.153ZM7.206,5.647c0-.908,.739-1.647,1.647-1.647,.887,0,1.613,.723,1.646,1.602-1.104,.022-2.203,.068-3.29,.139-.002-.031-.003-.062-.003-.094Zm7.942-1.647c.908,0,1.647,.739,1.647,1.647,0,.031,0,.061-.002,.091-1.087-.07-2.187-.116-3.291-.137,.033-.879,.759-1.602,1.646-1.602Z"/>
+                     </svg>
+                     <p style="font-size: 1.1rem; color: #0E5388; background-color: transparent;">
+                         <strong style="background-color: transparent;">Por tu confianza, te premiamos:</strong> Por cada 12 compras, obtienes 1 litro gratis.<br>
+                     </p>
+                 </div>
+             </div>
+             <div class="ofertas-item">
+                 <div class="oferta-content">
+                     <svg class="oferta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                         <path d="m4.579,4.902c-.166-.517-.067-1.08.264-1.506C5.821,2.131,8.5-.01,12.325-.01c2.455,0,4.452,1.941,4.639,4.39-1.645-.785-3.376-.881-4.964-.881-.553,0-1,.448-1,1s.447,1,1,1c1.637,0,3.227.108,4.659,1.008-.691,1.75-2.369,2.992-4.333,2.992-1.668,0-3.078-1.097-4.323-2.064-.833-.647-1.62-1.258-2.354-1.478-.507-.152-.906-.546-1.069-1.056Zm12.079,1.606c.545.343,1.069.79,1.56,1.405.198.247.488.375.782.375.219,0,.439-.072.624-.219.431-.345.501-.974.156-1.405-.876-1.094-1.831-1.812-2.818-2.283.009.122.036.24.036.365,0,.624-.126,1.217-.341,1.763Zm6.247,5.427h0c-.23-.489-.684-.831-1.214-.915-.547-.084-1.109.108-1.496.521-.556.592-1.321,1.124-2.132,1.686-1.309.908-2.661,1.847-3.455,3.25-.62,1.097-.773,2.368-.431,3.579.149.528.399,1.006.709,1.44,1.806-.776,2.855-2.244,3.259-3.58.16-.529.715-.828,1.246-.668.529.16.828.718.668,1.246-.484,1.601-1.656,3.327-3.581,4.425.722.391,1.501.579,2.272.579,1.669,0,3.291-.869,4.162-2.409,1.851-3.27.865-7.292-.008-9.154Zm-8.019,9.561c-.584.251-1.244.432-1.99.509-.55.057-.948.549-.891,1.098.053.514.487.896.993.896.034,0,.069-.002.104-.005,1.324-.138,2.433-.537,3.375-1.075-.012-.006-.024-.011-.036-.017-.633-.35-1.151-.837-1.556-1.406Zm-5.422-2.188c-.067.64-.13,1.244-.122,1.83.003.256.038.516.104.776.146.563-.002,1.154-.396,1.575-.309.33-.733.51-1.176.51-.102,0-.204-.009-.307-.029-1.228-.233-5.371-1.293-7.122-5.152-.99-2.181-.211-4.721,1.711-6.006-.032.241-.064.481-.064.709-.012.191-.054,1.931,2.201,4.185.195.195.451.293.707.293s.512-.098.707-.293c.391-.391.391-1.023,0-1.414-1.588-1.587-1.618-2.669-1.617-2.708,0-.472.114-1,.32-1.56.668-.051,1.343.028,1.99.267,1.201.444,2.157,1.335,2.69,2.511.687,1.51.527,3.032.374,4.504Zm-5.054-7.283c.176-.48.417-.983.736-1.503.289-.471.141-1.086-.33-1.375-.472-.29-1.087-.141-1.375.33-.726,1.184-1.147,2.31-1.285,3.335.198-.132.396-.265.618-.369.524-.244,1.077-.375,1.636-.418Z"/>
+                     </svg>
+                     <p style="font-size: 1.1rem; color: #0E5388; background-color: transparent;">
+                         <strong style="background-color: transparent;">Tenemos compromiso ambiental: </strong>Nuestros envases son reciclables de vidrio, reducimos residuos y promovemos el consumo consciente.
+                     </p>
+                 </div>
+             </div>
+
+             <div class="contact-button-container">
+                 <a href="https://wa.me/+56957307259?text=Hola! Me interesa conocer más sobre Leche Viva" class="contact-button" target="_blank" rel="noopener noreferrer">
+                    Conversemos sobre Leche Viva +569 5730 7259
+                 </a>
+             </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="footer-right">
+                <p>Elaborado por:</p>
+                <p>AgroRumiTech & Agrícola Challahuin SpA</p>
+                <p>RUT: 77.529.112-5</p>
+                <p>+569 5730 7259</p>
+                <p>Loncoche, Región de La Araucanía – Chile</p>
+                <p><a  href="www.lecheviva.cl" style="background-color: transparent; color: aliceblue;">🌐 www.lecheviva.cl</p></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        // WhatsApp integration
+        function openWhatsApp() {
+            // Reemplaza este número con el número de WhatsApp real de la empresa
+            const phoneNumber = '56957307259'; // Formato: código país + número sin espacios
+            const message = encodeURIComponent('¡Hola! Me interesa conocer más sobre Leche Viva');
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
+        }
+
+        // Smooth scrolling animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
