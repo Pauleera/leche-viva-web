@@ -5,10 +5,25 @@
     box-sizing: border-box;
     background-color: #F9F8F2;
 }
+@font-face {
+    font-family: 'Shadows Into Light'; 
+    src: url('../fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Epilogue'; 
+    src: url('../fonts/Epilogue-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 
 body {
-    font-family: 'Times New Roman',cursive;
-    line-height: 1.6;
+    font-family: "Epilogue", Sans-serif;
+    line-height: 1.0;
     scroll-behavior: smooth;
 }
 
@@ -180,6 +195,8 @@ body {
     align-items: center;
     margin-left: 2vw;
     color: #00345d;
+    font-family: 'Shadows Into Light', sans-serif;
+    line-height: 1.6;
 }
 
 .hero-text p {

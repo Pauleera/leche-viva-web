@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leche Viva - Leche fresca de La Araucanía</title>
     <link rel="stylesheet" type="text/css" href="static/styles.css"> 
+    <link rel="icon" href="images/icon-bird.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-            <a href="www.lecheviva.cl" style="background-color: transparent;"><img src="images/logo.png" alt="Leche Viva Logo"></a>
+            <a href="#inicio" style="background-color: transparent;"><img src="images/logo.png" alt="Leche Viva Logo"></a>
         </div>
         <ul class="nav-links" id="navLinks">
             <li style="background-color: transparent;"><a href="#leche-viva">Leche Viva</a></li>
@@ -194,7 +195,7 @@
                 <p>RUT: 77.529.112-5</p>
                 <p>+569 5730 7259</p>
                 <p>Loncoche, Región de La Araucanía – Chile</p>
-                <p><a  href="www.lecheviva.cl" style="background-color: transparent; color: aliceblue;">🌐 www.lecheviva.cl</p></a>
+                <p><a  href="#inicio" style="background-color: transparent; color: aliceblue;">🌐 www.lecheviva.cl</p></a>
             </div>
         </div>
     </footer>
@@ -209,7 +210,7 @@
         // WhatsApp integration
         function openWhatsApp() {
             // Reemplaza este número con el número de WhatsApp real de la empresa
-            const phoneNumber = '56957307259'; // Formato: código país + número sin espacios
+            const phoneNumber = '+56957307259'; // Formato: código país + número sin espacios
             const message = encodeURIComponent('¡Hola! Me interesa conocer más sobre Leche Viva');
             const url = `https://wa.me/${phoneNumber}?text=${message}`;
             window.open(url, '_blank');
