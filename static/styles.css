@@ -192,11 +192,13 @@ body {
 .hero-text {
     background: none !important;
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-left: 2vw;
     color: #00345d;
     font-family: 'Shadows Into Light', sans-serif;
     line-height: 1.6;
+
 }
 
 .hero-text p {
